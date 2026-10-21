@@ -1,6 +1,6 @@
-<nav style="background-color: #eee; padding: 15px; margin-bottom: 20px;">
-    <a href="index.php">Inicio</a> | 
-    <a href="ejercicio1.php">Ejercicio 1 (Calculadora)</a> | 
-    <a href="ejercicio2.php">Ejercicio 2 (Edad)</a> | 
-    <a href="ejercicio3.php">Ejercicio 3 (Secuencia)</a>
-</nav>
+<div style="background-color: #333; padding: 10px;">
+    <a href="index.php" style="color: white; margin-right: 15px;">Inicio</a>
+    <a href="ejercicio1.php" style="color: white; margin-right: 15px;">Ejercicio 1</a>
+    <a href="ejercicio2.php" style="color: white; margin-right: 15px;">Ejercicio 2</a>
+    <a href="ejercicio3.php" style="color: white;">Ejercicio 3</a>
+</div>

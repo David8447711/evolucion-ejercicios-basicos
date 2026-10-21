@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Ejercicio 1</title>
 </head>
-<body>
+<body style="background-color: #222; color: white; font-family: Arial;">
 
     <?php require 'menu.php'; ?>
 
-    <h2>Ejercicio 1: Calculadora</h2>
+    <h2 style="padding: 20px;">Ejercicio 1: Calculadora</h2>
     
-    <?php
-    $num1 = 12;
-    $num2 = 4;
+    <div style="padding: 0 20px;">
+        <?php
+        $num1 = 12;
+        $num2 = 4;
 
-    $suma = $num1 + $num2;
-    $resta = $num1 - $num2;
-    $multiplicacion = $num1 * $num2;
-    $division = $num1 / $num2;
-
-    echo "Suma ($num1 + $num2): " . $suma . "<br>";
-    echo "Resta ($num1 - $num2): " . $resta . "<br>";
-    echo "Multiplicación ($num1 * $num2): " . $multiplicacion . "<br>";
-    echo "División ($num1 / $num2): " . $division . "<br>";
-    ?>
+        echo "Suma: " . ($num1 + $num2) . "<br>";
+        echo "Resta: " . ($num1 - $num2) . "<br>";
+        echo "Multiplicación: " . ($num1 * $num2) . "<br>";
+        echo "División: " . ($num1 / $num2) . "<br>";
+        ?>
+    </div>
 
     <br>
-    <a href="index.php">Volver al inicio</a>
+    <a href="index.php" style="color: yellow; padding: 20px;">Volver al inicio</a>
 
 </body>
 </html>
